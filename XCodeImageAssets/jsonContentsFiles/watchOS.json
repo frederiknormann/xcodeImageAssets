@@ -1,0 +1,92 @@
+{
+  "images" : [
+    {
+      "size" : "24x24",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "38mm",
+      "filename":"AppIcon-24pt@2x.png"
+    },
+    {
+      "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "42mm",
+      "filename":"AppIcon-27.5pt@2x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "2x",
+      "filename":"AppIcon-29pt@2x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "3x",
+      "filename":"AppIcon-29pt@3x.png"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "38mm",
+      "filename":"AppIcon-40pt@2x.png"
+    },
+    {
+      "size" : "44x44",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "40mm",
+      "filename":"AppIcon-44pt@2x.png"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "44mm",
+      "filename":"AppIcon-50pt@2x.png"
+    },
+    {
+      "size" : "86x86",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "38mm",
+      "filename":"AppIcon-86pt@2x.png"
+    },
+    {
+      "size" : "98x98",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "42mm",
+      "filename":"AppIcon-98pt@2x.png"
+    },
+    {
+      "size" : "108x108",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "44mm",
+      "filename":"AppIcon-108pt@2x.png"
+    },
+    {
+      "idiom" : "watch-marketing",
+      "size" : "1024x1024",
+      "scale" : "1x",
+      "filename":"AppIcon-1024pt@1x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "Normann"
+  }
+}
