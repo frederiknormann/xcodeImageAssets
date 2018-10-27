@@ -13,8 +13,8 @@ This script denpends on ImageMagick
 
 In Terminal:
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-brew install imagemagick
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+$ brew install imagemagick
 
 ## Instructions
 
@@ -24,9 +24,9 @@ Download and unzip XCodeImageAssets
 
 In terminal:
 
-cp XCodeImageAssets /usr/local/XCodeImageAssets
-ln -s /usr/local/bin/createXCodeIconAssets.sh /usr/local/XCodeImageAssets/createXCodeIconAssets.sh
-ln -s /usr/local/bin/createXCodeAsset.sh /usr/local/XCodeImageAssets/createXCodeAsset.sh
+$ cp XCodeImageAssets /usr/local/XCodeImageAssets
+$ ln -s /usr/local/bin/createXCodeIconAssets.sh /usr/local/XCodeImageAssets/createXCodeIconAssets.sh
+$ ln -s /usr/local/bin/createXCodeAsset.sh /usr/local/XCodeImageAssets/createXCodeAsset.sh
 
 ### Usage
 
