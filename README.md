@@ -31,10 +31,12 @@ ln -s /usr/local/bin/createXCodeAsset.sh /usr/local/XCodeImageAssets/createXCode
 ### Usage
 
 createXCodeIconAssets.sh:
+
 	$0 <source_file>
 	$0 <source_file> <output_dir>
 
-createXCodeAssets.sh
+createXCodeAssets.sh:
+
 	$ <source_file>
 
 ## Credits
