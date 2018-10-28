@@ -24,7 +24,7 @@ Download and unzip XCodeImageAssets
 
 In terminal:
 
-	$ cp XCodeImageAssets /usr/local/XCodeImageAssets
+	$ cp -r XCodeImageAssets /usr/local/XCodeImageAssets
 	$ ln -s /usr/local/bin/createXCodeIconAssets.sh /usr/local/XCodeImageAssets/createXCodeIconAssets.sh
 	$ ln -s /usr/local/bin/createXCodeAsset.sh /usr/local/XCodeImageAssets/createXCodeAsset.sh
 
