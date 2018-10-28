@@ -22,7 +22,7 @@ In Terminal:
 
 Download and unzip XCodeImageAssets
 
-In terminal:
+In Terminal:
 
 	$ cp -r XCodeImageAssets /usr/local/XCodeImageAssets
 	$ ln -s /usr/local/XCodeImageAssets/createXCodeIconAssets.sh /usr/local/bin/createXCodeIconAssets.sh
