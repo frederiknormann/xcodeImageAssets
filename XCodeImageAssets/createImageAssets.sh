@@ -19,6 +19,7 @@ IMESSAGE_DIR="iMessage"
 IMESSAGEICON_DIR="Messages Icon.stickersiconset"
 TVOS_DIR="tvOS"
 TVOSICON_DIR="App Icon & Top Shelf Image.brandassets"
+DIST_DIR="Distribution"
 JSON_DIR="jsonContentsFiles"
 VERSION=1.0.0
 
@@ -32,7 +33,7 @@ USAGE:
 DESCRIPTION:
     This script generates XCode app icon assets for the following from a single image file.
 
-    iOS, watchOS, tvOS, macOS, iTunes and Messages 
+    iOS, watchOS, tvOS, macOS, iTunes, Messages & Distribution
 
     <source_file> - The source image file, should be at least 1024x1024px in size (preferably 1536x1536px).
     <output_dir> - The destination path where icons will be generated.
@@ -193,5 +194,11 @@ convert "$SOURCE_FILE" -resize 1920x1080\! "$TVOS_OUTPUT/Launch Image.launchimag
 convert "$SOURCE_FILE" -resize 3840x2160\! "$TVOS_OUTPUT/Launch Image.launchimage/AppIconLaunchImage-1920x1080pt@2x.png"
 #cat "$SCRIPT_DIR/$JSON_DIR/tvOSAppIcon.json" > "$TVOS_APPICON_OUTPUT/Contents.json"
 echo -e '> tvOS app icons'
+
+DIST_OUTPUT="$OUTPUT_PATH/$DIST_DIR/"
+mkdir -p "$DIST_OUTPUT"
+convert "$SOURCE_FILE" -resize 57x57 "$DIST_OUTPUT/DistributionImage-57pt@1x.png"
+convert "$SOURCE_FILE" -resize 512x512 "$DIST_OUTPUT/DistributionImage-512pt@1x.png"
+echo -e '> Distribution images'
 
 success "all icons generated"
