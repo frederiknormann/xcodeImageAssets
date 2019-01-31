@@ -12,9 +12,9 @@ USAGE:
     $0 <source_dir> <output_dir>
 
 DESCRIPTION:
-    This script generates image assets te be used in iOS apps.
+    This script generates image assets (x1 x2 x3) to be used in iOS apps etc.
 
-    <source_dir> - The source image directory. Images inside it should be in @3x sizing.
+    <source_dir> - The source image directory. Images inside it is in @3x sizing.
     <output_dir> - The destination path where assets will be generated.
 	
 	Image files with names ending with "Template" (e.g. "IconPlusTemplate.png") will be converted into template image sets.
@@ -22,7 +22,7 @@ DESCRIPTION:
     This script is depend on ImageMagick. So you must install ImageMagick first
     On OSX you can use 'sudo brew install ImageMagick' to install it
 
-AUTHOR:
+AUTHOR / CREDIT:
     Arthur Krupa<arthur.krupa@gmail.com>
 
 LICENSE:
