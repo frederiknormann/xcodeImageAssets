@@ -1,6 +1,6 @@
 # XCodeImageAssets
 
-This shell script creates app icon assets for iOS, watchOS, tvOS, MacOS, iTunes, Mesaages &amp; Distribution for XCode 10 from just one file
+This shell script creates app icon assets for iOS, watchOS, tvOS, MacOS, iTunes, Messages &amp; Distribution for XCode 10 from just one file
 
 - createImageAssets.sh for creation of App Icon Assets
 - resizeAssets.sh for creation of Image Asset (@1x, @2x, @3x)
