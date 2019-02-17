@@ -7,7 +7,7 @@ This shell script creates app icon assets for iOS, watchOS, tvOS, MacOS, iTunes,
 
 ## Dependencies
 
-This script denpends on ImageMagick
+This script depends on ImageMagick
 
 ### Install ImageMagick
 
