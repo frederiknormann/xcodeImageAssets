@@ -24,9 +24,9 @@ Download and unzip XCodeImageAssets
 
 In Terminal:
 
-	$ sudo cp -r XCodeImageAssets /usr/local/XCodeImageAssets
-	$ ln -s /usr/local/XCodeImageAssets/createImageAssets.sh /usr/local/bin/createImageAssets.sh
-	$ ln -s /usr/local/XCodeImageAssets/resizeAssets.sh /usr/local/bin/resizeAssets.sh
+	$ sudo cp -Rf XCodeImageAssets /usr/local/
+	$ ln -sf /usr/local/XCodeImageAssets/createImageAssets.sh /usr/local/bin/createImageAssets.sh
+	$ ln -sf /usr/local/XCodeImageAssets/resizeAssets.sh /usr/local/bin/resizeAssets.sh
 
 ### Usage
 
